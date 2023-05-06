@@ -1,0 +1,1098 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Grand+Hotel&family=Montserrat&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Grand Hotel', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* Topbar Start */
+.tobar {
+    width: 100%;
+    height: 5vh;
+    background: url("../Assets/topbar.png");
+}
+
+.social_links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+    font-size: 1em;
+    gap: 1em;
+    padding: 0 15%;
+    padding-top: .8%;
+
+}
+
+/* Topbar End */
+/* Navbar Start */
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #212529;
+    height: 60px;
+    padding: 0 20px;
+    background-position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 0 13%;
+    position: sticky;
+   
+
+}
+.navbar-scrolled {
+    background-color: #091b27; /* new background color */
+    /* other styles here */
+    color: #f6f1f1;
+  }
+  .navbar-scrolled .navbar-link{
+    color: #fff;
+}
+.navbar-scrolled span{
+    color: #f13e4b;
+}
+
+
+.navbar-logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
+    margin-right: 20px;
+}
+
+.navbar-link {
+    color: #212529;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.navbar-link:hover {
+    color: rgb(86, 83, 78);
+    text-decoration: underline;
+    text-underline-offset: 1em;
+}
+
+.navbar-cart {
+    margin-left: auto;
+}
+
+.navbar-cart-icon {
+    font-size: 1.2rem;
+}
+
+.navbar-toggle {
+    display: none;
+}
+
+
+/* Navbar End */
+/* Banner Start */
+.banner {
+    width: 100%;
+    height: 80vh;
+    background: url("../Assets//banner-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1%;
+    background-attachment: fixed;
+
+}
+
+.heading h4 {
+
+
+    font-size: 3.8rem;
+    padding-top: 8%;
+    margin-left: 17%;
+    font-weight: 400;
+    color: #ffffff;
+
+}
+
+.heading span {
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+.data p {
+
+    margin-top: 2%;
+    margin-left: 17%;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.donate_btn {
+    width: 10%;
+    height: 5vh;
+    background-color: #282828;
+    color: #fff;
+    border-radius: 1em;
+    font-size: 1.5rem;
+    margin-left: 17%;
+    font-weight: 800;
+    margin-top: 2%;
+
+}
+
+/* Banner End */
+/* Help Section Start */
+.help {
+    margin-top: 2%;
+}
+
+.title {
+
+    display: flex;
+    justify-content: center;
+}
+
+.title h1 {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 900;
+}
+
+.title span {
+    color: #f13e4b;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.info__container {
+    display: flex;
+    justify-content: center;
+}
+
+.details__contianer img {
+    width: 15rem;
+    height: 25vh;
+    font-size: 200px;
+    border-radius: 55%;
+    padding: .5rem;
+    margin: 3rem;
+    background-color: #ffffff;
+}
+
+.details__contianer h1 {
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.details__contianer p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* Help Section End */
+
+
+/* Aboutus Section Start */
+.about__container {
+    display: flex;
+
+}
+
+.right__section h1 {
+    color: #fff;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.right__section p {
+    text-align: justify;
+    color: #fff;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding-right: 1rem;
+
+}
+
+.right__section {
+    margin-left: 2rem;
+}
+
+.about__btn {
+    width: 18rem;
+    margin-left: 17rem;
+}
+
+.about {
+    margin-top: 2rem;
+    width: 100%;
+    height: 56.2vh;
+    background: url("../Assets//about-background.png");
+
+}
+
+
+
+
+
+/* Aboutus Section End */
+
+
+/* Feature Section End */
+
+
+
+.feature__cause {
+    margin-top: 2rem;
+}
+
+.feature_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.feature {
+    display: flex;
+    justify-content: center;
+    padding: 0 13%;
+
+
+
+}
+
+.bg {
+    background: url("../Assets//featureBg.png");
+    width: 40rem;
+    height: 65vh;
+    margin: 2rem;
+}
+
+
+.card_one h4,
+h2 {
+    margin-top: 8%;
+    text-align: center;
+    color: #fff;
+    font-weight: 800;
+
+}
+
+.card_one img {
+    width: 100%;
+    height: 35vh;
+
+}
+
+.cause__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card_one button {
+    width: 50%;
+    height: 5vh;
+    background-color: #282828;
+    color: #fff;
+    border-radius: 1em;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 2%;
+}
+
+
+
+/* Feature Section End */
+
+/* People Section Start */
+
+
+.people {
+    background: url("../Assets/peoplebg.jpg");
+    width: 100%;
+    height: 60vh;
+}
+
+.heading h1 {
+    color: #ffffff;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 2rem;
+}
+
+.people__says {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.people__review {
+    width: 70%;
+    height: 30vh;
+    background-color: #fff;
+    border-radius: 1rem;
+    margin-top: 4rem;
+
+}
+
+.content p {
+    text-align: justify;
+    padding: 2.5rem;
+}
+
+.logo__title {
+    display: flex;
+    justify-content: center;
+}
+
+.people__images {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.people__images img {
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+    padding: .2rem;
+    background-color: #fff;
+    border: 2px solid #fff;
+    margin: .5rem;
+}
+
+
+/* People Section End */
+
+/* Volunteer Start*/
+
+.volunteer {
+    margin-top: 5%;
+}
+
+.volunteer_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.details img {
+    width: 200px;
+    height: 200px;
+    border-radius: 55%;
+    padding: 4%;
+    margin: 3rem;
+    background-color: rgb(250, 250, 255);
+    zoom: 1;
+}
+
+.details h2 {
+    color: #f13e4b;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.details h3 {
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* Volunteer End*/
+
+
+/* Footer Start */
+
+
+.contact {
+    background: url("../Assets//ContactBg.png");
+    width: 100%;
+    height: 10vh;
+
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.contact_form p {
+    color: #fff;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.contact_form h3 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.contact_form input {
+    width: 20%;
+    height: 4vh;
+    border-radius: 1.4rem;
+    font-size: 2rem;
+}
+
+.contact_form button {
+    background-color: #282828;
+    width: 13%;
+    height: 4vh;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+}
+
+.fa-phone {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.mail {
+    color: #6a6464;
+    margin-top: 1.4rem;
+    position: absolute;
+    margin-left: 14rem;
+
+}
+
+
+.footer__section {
+    background-color: #091b27;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 5rem;
+
+
+
+}
+
+.footer__section h1 {
+    color: #fff;
+}
+
+.footer__section p {
+    color: #fff;
+    text-align: justify;
+    font-size: 20px;
+
+
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    background-color: #fff;
+    color: #000;
+    text-decoration: underline;
+    text-underline-offset: 1em;
+}
+
+.our__mission h1 {
+    text-transform: uppercase;
+    font-weight: 800;
+
+}
+
+.quick__links p {
+    text-transform: uppercase;
+}
+
+.quick__links a {
+    font-size: 1.3em;
+}
+
+.quick__links a:hover {
+    background-color: #f60505;
+}
+
+.our__mission p {
+    margin-top: 2%;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.quick__links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.quick__links a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+
+.gallery__photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.gallery__photos img {
+    width: 6rem;
+    height: 6vh;
+    margin: .5rem;
+}
+
+.gallery p {
+    text-align: center;
+
+}
+
+.contact__us p {
+    text-align: center;
+}
+
+.quick__links p {
+    text-align: center;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #091b27;
+    font-size: 1.5em;
+}
+
+.copyright p {
+    color: #fff;
+
+}
+
+
+
+.contact__us h2 {
+    font-size: 1em;
+
+    color: #f13e4b;
+}
+
+.horizantal__line {
+    color: #f13e4b;
+}
+
+.my___detail h3,
+p,
+input,
+button {
+    margin-top: 2%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.location__icon,
+.phone__icon,
+.mail__icon {
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 1rem;
+
+
+
+
+}
+
+.copyright p {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Grand Hotel', cursive;
+    color: #f60505;
+
+}
+
+/* Footer End */
+
+
+/* Media Query */
+@media (max-width: 768px) {
+
+    /* Navbar Start */
+    .tobar {
+        display: none;
+    }
+
+    .navbar {
+        flex-wrap: wrap;
+        background-color: #908989;
+        height: auto;
+    }
+
+    .navbar-logo {
+        order: 2;
+        margin: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    .navbar-menu {
+        order: 3;
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        background-color: #908989;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        z-index: 1;
+        padding: 20px 0;
+    }
+
+    .navbar-menu.show {
+        display: flex;
+    }
+
+    .navbar-item {
+        margin: 10px 0;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-toggle {
+        order: 1;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .navbar-toggle:focus {
+        outline: none;
+    }
+
+    .navbar-toggle-icon {
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: #000;
+        border-radius: 3px;
+        position: relative;
+
+        transition: transform 0.2s ease-out;
+    }
+
+    .navbar-toggle-icon:before,
+    .navbar-toggle-icon:after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #212529;
+        border-radius: 3px;
+        position: absolute;
+        transition: transform 0.2s ease-out;
+    }
+
+    .navbar-toggle-icon:before {
+        top: -10px;
+    }
+
+    .navbar-toggle-icon:after {
+        bottom: -10px;
+    }
+
+    .navbar-toggle.open .navbar-toggle-icon {
+        transform: rotate(45deg);
+    }
+
+    .navbar-toggle.open .navbar-toggle-icon:before {
+        transform: rotate(90deg) translate(8px, 8px);
+    }
+
+    .navbar-toggle.open .navbar-toggle-icon:after {
+        transform: rotate(-90deg) translate(8px, -8px);
+    }
+
+    /* Navbar End */
+    /* Banner Start */
+    .banner {
+        width: 100%;
+        height: 58vh;
+        background: none;
+        color: #282828;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-top: 2rem;
+
+
+
+
+    }
+
+    .heading h4 {
+
+        font-size: 1rem;
+        color: #282828;
+        padding: 2rem;
+
+    }
+
+    .heading span {
+
+        font-size: 1.4rem;
+        color: #f13e4b;
+
+    }
+
+    .data {}
+
+    .data p {
+        width: 100%;
+        text-align: center;
+        padding: 1rem;
+        color: #282828;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .donate_btn {
+        width: 13rem;
+        height: 8vh;
+    }
+
+
+    /* Banner end */
+
+    /* Help Start */
+
+    .title h1 {
+        margin-top: 9rem;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .info__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .info img {
+        width: 200px;
+        height: 200px;
+        padding: 1px;
+        border: 2px solid #fff;
+    }
+
+    .details__contianer h1 {
+        font-size: 1.5rem;
+    }
+
+    .details__contianer p {
+        font-size: 1rem;
+    }
+
+    /* Help end */
+
+
+
+    /* About Start */
+    .about {
+        display: none;
+    }
+
+    .right__section {
+        background: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #f6f1f1;
+        width: 40%;
+        overflow: hidden;
+
+    }
+
+    .left__section img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background: none;
+        background-color: #fff;
+    }
+
+    .right__section {
+        background: none;
+
+        background-color: rgb(87, 82, 82);
+
+    }
+
+    .right__section h1 {
+        color: #f13e4b;
+        text-align: center;
+        font-size: 1.9rem;
+    }
+
+    .right__section p {
+        text-align: center;
+        font-size: 1rem;
+        padding: 4rem;
+    }
+
+
+
+
+
+
+
+
+    /* About end */
+
+    /* Feature Start */
+    .feature__cause {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .feature {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 2rem;
+
+    }
+
+    .card_one {
+        width: 220px;
+        height: 50vh;
+        margin: 20%;
+    }
+
+    .card_one img {
+        width: 220px;
+        height: 200px;
+    }
+
+    .card_one h4 {
+        font-size: .7rem;
+    }
+
+    .card_one h2 {
+        font-size: 1rem;
+    }
+
+    .cause__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .cause__btn button {
+        width: 150px;
+        font-size: 1rem;
+    }
+
+    /* Feature end */
+
+    /* People Start */
+    .people {
+        background: none;
+    }
+
+    .heading h1 {
+        color: #000;
+    }
+
+    .people__review {
+        background: none;
+    }
+
+    .content {
+        width: 100%;
+        height: 70vh;
+
+    }
+
+    .content p {
+        text-align: justify;
+        font-size: 15px;
+        padding: 0;
+    }
+
+    .people__images {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 130%;
+    }
+
+    .people__images img {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* People end */
+
+    /* Volunteer Start */
+    .volunteer {
+        margin-top: 150%;
+    }
+
+    .details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* Volunteer end */
+
+    /* Footer Start */
+    .footer {
+        margin-top: 20%;
+    }
+
+    .contact {
+        width: 100%;
+        height: 55vh;
+    }
+
+    .contact_form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact_form input {
+        width: 200px;
+    }
+
+    .contact_form button {
+        width: 200px;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .contact_form h3 {
+        font-size: 1.5rem;
+    }
+
+    .contact_form i {
+        display: none;
+    }
+
+    .our__mission,
+    .links {
+        display: none;
+    }
+
+    .copyright {
+        font-size: 1rem;
+
+    }
+
+    .footer__section {
+        display: flex;
+        flex-direction: column;
+
+        background-color: rgb(89, 83, 83);
+        height: auto;
+    }
+
+    .gallery__photos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gallery__photos img {
+        width: 100px;
+        height: 100px;
+        margin-left: 2.9rem;
+    }
+
+    a {
+        font-size: .8rem;
+    }
+
+
+    /* Footer end */
+}
